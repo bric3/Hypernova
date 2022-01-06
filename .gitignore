@@ -2,3 +2,6 @@ build
 dist
 lib
 cache.properties
+
+# Ignore Gradle project-specific cache directory
+.gradle
