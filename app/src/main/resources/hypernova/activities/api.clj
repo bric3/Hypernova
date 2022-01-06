@@ -2,13 +2,13 @@
   (:import [hypernova Universe Ship Mass Hull]
 	   [java.io PushbackReader InputStreamReader]))
 
-(defonce *universe* (Universe/get))
+(defonce ^:dynamic *universe* (Universe/get))
 
 ;;; these variables are bound dynamically when a given scenario is
 ;;; realized. They are bound to values supplied by java at realization
 ;;; time.
-(def *x* 0)
-(def *y* 0)
+(def ^:dynamic *x* 0)
+(def ^:dynamic *y* 0)
 
 (defn parts [kind]
   #(Ship/get kind))
