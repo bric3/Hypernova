@@ -2,3 +2,6 @@ build
 dist
 mp3s
 cache.properties
+
+# Ignore Gradle project-specific cache directory
+.gradle
