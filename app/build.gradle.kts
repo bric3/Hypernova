@@ -15,6 +15,9 @@ dependencies {
 
     implementation("net.compartmental.code:minim:2.2.2")
     implementation("com.googlecode.soundlibs:tritonus-share:0.3.7.4")
+    implementation("org.jogamp.jogl:jogl-all-main:2.3.2")
+    implementation("org.jogamp.gluegen:gluegen-rt-main:2.3.2")
+    implementation("javax.xml.bind:jaxb-api:2.3.1")
 }
 
 testing {
